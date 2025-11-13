@@ -1,1 +1,27 @@
 @import "tailwindcss";
+
+:root {
+  --color-charcoal-dark: #1a1a1a;
+  --color-charcoal-light: #2d2d2d;
+  --color-white: #ffffff;
+  --color-white-soft: #f5f5f5;
+  --color-orange: #ff7b00;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: var(--color-charcoal-dark);
+  color: var(--color-white);
+  line-height: 1.6;
+  overflow-x: hidden;
+}
