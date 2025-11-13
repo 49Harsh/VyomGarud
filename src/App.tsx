@@ -1,13 +1,18 @@
-import React from 'react'
-
+import Hero from './components/Hero'
+import About from './components/About'
+import Capabilities from './components/Capabilities'
+import Highlights from './components/Highlights'
+import Footer from './components/Footer'
 
 function App() {
-
-
   return (
-    <>
-      <h1 className='bg-red-500'>Vite + React</h1>
-    </>
+    <main className="min-h-screen bg-[#1a1a1a]">
+      <Hero />
+      <About />
+      <Capabilities />
+      <Highlights />
+      <Footer />
+    </main>
   )
 }
 
